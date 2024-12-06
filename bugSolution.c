@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; printf("%d\n", x); //This example is functionally correct, however in larger, more dynamic contexts, this can lead to problems.  Consider using dynamic memory management and error checking for robust code. return 0; }
